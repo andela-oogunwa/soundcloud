@@ -19,3 +19,21 @@ img {
 input {
   padding: 20px
 }*/
+body {
+  margin: 0;
+  padding: 0;
+  border: none;
+  background-size: contain;
+}
+h1 {
+  text-align: left;
+}
+.jumbotron {
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.4),
+      rgba(0, 0, 0, 0.4)
+    ),url("../img/thumbs.jpg")no-repeat;
+  background-size:1500px;
+  background-position: absolute;
+}
+.page-header {}
