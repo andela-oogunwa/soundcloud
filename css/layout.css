@@ -20,3 +20,10 @@ h1 {
   background-size:1500px;
   background-position: absolute;
 }
+.img-thumbnail {
+  width:250px;
+  height:150px;
+}
+.col-md-4 {
+  text-align: center;
+}
