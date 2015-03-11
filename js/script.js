@@ -34,8 +34,11 @@ var soundSearch = {
           "<h5>"+"Genre : " +track.genre+"</h5>" +
           "<audio controls><source src="+play+" type=audio/mpeg></audio></div></span>";
         })
+        $(".result").html(view);
       });
+
     }
+
 };
  $(document).ready(function() {
    soundSearch.first();
